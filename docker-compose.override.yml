@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  mc-status-api:
+    env_file:
+      - .env
+    environment:
+      - PORT=${PORT:-3000}
+      - RATE_LIMIT=${RATE_LIMIT:-60}
+      - CACHE_TTL=${CACHE_TTL:-60}
+    ports:
+      - "${PORT:-3000}:3000"
