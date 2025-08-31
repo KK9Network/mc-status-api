@@ -4,9 +4,9 @@
 
 ## 📦 安装
 
-git clone https://github.com/KK9Network/mc-status-api.git
-cd mc-status-api
-npm install
+- git clone https://github.com/KK9Network/mc-status-api.git
+- cd mc-status-api
+- npm install
 
 ## 🚀 运行
 
@@ -28,9 +28,9 @@ cp .env.example .env
 
 然后根据需要修改内容，例如：
 
-PORT=3000
-RATE_LIMIT=60
-CACHE_TTL=60
+- PORT=3000
+- RATE_LIMIT=60
+- CACHE_TTL=60
 
 - `PORT` → 服务运行端口  
 - `RATE_LIMIT` → 每分钟最大请求次数 (限流)  
@@ -58,4 +58,5 @@ GET /api/cache/stats
 
 ## 📄 License
 MIT
+
 
