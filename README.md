@@ -4,7 +4,7 @@
 
 ## 📦 安装
 
-git clone <your-repo>
+git clone https://github.com/KK9Network/mc-status-api.git
 cd mc-status-api
 npm install
 
@@ -58,3 +58,4 @@ GET /api/cache/stats
 
 ## 📄 License
 MIT
+
